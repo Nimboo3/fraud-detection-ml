@@ -1,0 +1,67 @@
+
+# --- Core Data / Numerical ---
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+scipy==1.13.1
+pyyaml==6.0.2
+
+# --- Feature Engineering / Utilities ---
+category-encoders==2.6.3
+imbalanced-learn==0.12.2   # Handling class imbalance
+joblib==1.4.2
+
+# --- Modeling (optional boosters) ---
+xgboost==2.0.3
+lightgbm==4.3.0
+catboost==1.2.5
+
+# --- API Serving ---
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+pydantic==2.7.3
+
+# --- Dashboard / Visualization ---
+streamlit==1.36.0
+plotly==5.22.0
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# --- Experiment Tracking / Model Persistence (optional) ---
+mlflow==2.13.1
+optuna==3.6.1
+
+# --- Metrics / Validation ---
+scikit-plot==0.3.7
+
+# --- Testing & Quality ---
+pytest==8.2.1
+pytest-cov==5.0.0
+black==24.4.2
+isort==5.13.2
+mypy==1.10.0
+ruff==0.4.7
+
+# --- Notebook Support ---
+jupyter==1.0.0
+ipykernel==6.29.4
+
+# --- Logging / Observability (optional) ---
+rich==13.7.1
+
+# --- Security (optional) ---
+python-dotenv==1.0.1
+
+# --- Serialization / I/O ---
+pyarrow==16.1.0
+
+# --- Time Series / Optional expansion ---
+statsmodels==0.14.2
+
+# --- Future ---
+# great-expectations==1.0.0
+# evidently==0.4.33         # Data / model drift monitoring
+# bentoml==1.2.16           # Packaging models for deployment
+
+# End of file

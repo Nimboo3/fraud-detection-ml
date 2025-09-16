@@ -1,0 +1,104 @@
+# =============================
+# Python / ML Project .gitignore
+# =============================
+
+# --- Python bytecode / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+.env/
+.env.bak/
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+profile_default/
+*.nbconvert.ipynb
+
+# --- Package / build artifacts ---
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# --- Logs & debug ---
+logs/
+*.log
+nohup.out
+
+# --- Coverage / test ---
+htmlcov/
+.coverage*
+.cache/
+.pytest_cache/
+.tox/
+.mypy_cache/
+pytestdebug.log
+
+# --- Data (adjust keep rules) ---
+# Raw / intermediate / output data (comment out if intentional)
+/data/
+!data/README.md
+
+# --- Models ---
+models/
+!models/README.md
+*.joblib
+*.pkl
+*.h5
+*.pt
+
+# --- Configuration secrets ---
+*.env
+.env.local
+*.secrets*
+secrets/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Reports / exports ---
+reports/
+exports/
+
+# --- Cache / temp ---
+.tmp/
+tmp/
+.temp/
+*.tmp
+*.bak
+
+# --- Notebook outputs (optional aggressive) ---
+# Uncomment next lines to strip large embedded outputs
+# *.ipynb
+# !notebooks/*.ipynb
+
+# --- Dependency / lock (if generated) ---
+Pipfile.lock
+poetry.lock
+
+# --- ML experiment tracking (if added later) ---
+mlruns/
+wandb/
+.lightgbm_debug/
+
+# --- Others ---
+*.sqlite3
+*.db
+*.sql
+
+# End of file
